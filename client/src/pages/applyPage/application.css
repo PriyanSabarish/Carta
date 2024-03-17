@@ -1,0 +1,87 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+
+  .Patentcontainer {
+    background-color: white;
+    width: 600px;
+    padding: 0.5rem 3rem;
+    margin: 100px 0px 0px 420px;
+    padding-bottom: 2rem;
+    border-radius: 0.5rem;
+    border-left: 2px solid rgb(2, 50, 89);
+    border-right: 2px solid rgb(2, 50, 89);
+    border-bottom: 2px solid rgb(2, 50, 89);
+    border-top: rgb(4, 84, 150) 2.5rem solid;
+  }
+  textarea {
+    border-radius: 10x;
+    padding: 8px;
+     /* Adjust width as needed */
+    resize: vertical; /* Allow vertical resizing */
+    font-family: sans-serif; /* Set desired font */
+    word-wrap: break-word; /* Enable word wrapping */
+}
+
+  h2 {
+    margin: 1rem 0;
+  }
+  
+  .patentapplication{
+    display: flex;
+    flex-direction: column;
+    gap: 1.4rem;
+  }
+  
+  .patentapplication div {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+  }
+  
+  input {
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+    border: 1px solid gray;
+    font-size: 1.1rem;
+  }
+  
+.patenSubmit {
+    background-color: rgb(4, 84, 150);
+    color: white;
+    border: none;
+    padding: 0.5rem;
+    font-size: 1rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 0.3rem;
+  }
+  
+  span a {
+    text-decoration: none;
+    color: rgb(80, 98, 255);
+  }
+  
+  .private {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(80, 98, 255);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 3rem;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .private button {
+    background-color: black;
+    padding: 2rem 10rem;
+    font-size: 4rem;
+    border-radius: 2rem;
+  }
