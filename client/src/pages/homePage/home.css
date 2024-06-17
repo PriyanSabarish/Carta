@@ -1,4 +1,4 @@
-* {
+/* * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -61,4 +61,309 @@ span a {
   padding: 2rem 10rem;
   font-size: 4rem;
   border-radius: 2rem;
+} */
+.thegreatdappa{
+  height: 100vh; 
+  overflow-y:auto;
 }
+.nameless{
+  width: 100%;
+  padding-bottom:5rem;
+}
+.mainhomedappa {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 15px;
+  margin: 0vw 3vw 1vw 3vw;
+  /* Adjust margin as needed */
+  /* Adjust width based on margin */
+  height: 100vh; /* Set the height to viewport height */
+  /* Enable vertical scrolling */
+}
+
+
+ 
+.explore-box1 {
+  display: flex;
+  flex-direction: column;
+  
+  padding: 2vw;
+  height: 85%;
+    background-color: rgb(249, 249, 249);
+    border-radius: 20px;
+  width: 100%;
+  /* Adjust max-width as needed */
+  margin-bottom: 20px; /* Add some margin between explore boxes */
+}
+.frame-child {
+  align-self: stretch;
+  width: 1670px;
+  position: relative;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-xl);
+  background-color: var(--color-whitesmoke);
+  display: none;
+  max-width: 100%;
+}
+.blockchain-and-ai,
+.revolutionize-patent-filing {
+  margin: 0;
+}
+.experience-the-future,
+.revolutionize-patent-filing-container {
+  position: relative;
+  line-height: 150%;
+  flex-shrink: 0;
+  debug_commit: 1de1738;
+  z-index: 1;
+}
+.revolutionize-patent-filing-container {
+  width: 644px;
+  font-weight: 600;
+  display: inline-block;
+  max-width: 100%;
+}
+.revolutionize-patent-filing-container1 {
+  position: relative;
+  line-height: 150%;
+  flex-shrink: 0;
+  debug_commit: 1de1738;
+  z-index: 1;
+  width: 644px;
+  font-weight: 600;
+  display: inline-block;
+  max-width: 100%;
+}
+.experience-the-future {
+  align-self: stretch;
+  font-size: var(--font-size-5xl);
+  font-weight: 500;
+  color: #3d3d3d;
+}
+.call-to-action,
+.call-to-action-wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.call-to-action {
+  flex: 1;
+  flex-direction: column;
+  gap: 13.6px;
+}
+.call-to-action-wrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 2.9px;
+  box-sizing: border-box;
+}
+.button-labels-child {
+  height: 69.1px;
+  width: 184.4px;
+  position: relative;
+  background-color: var(--color-darkslategray-100);
+  display: none;
+}
+.learn-more {
+  flex: 1;
+  background-color: #050505;
+  position: relative;
+  line-height: 150%;
+  font-weight: 500;
+  z-index: 2;
+}
+.button-labels {
+  flex: 1;
+  background-color: var(--color-darkslategray-100);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 16.8px 5px 16.7px 26.9px;
+  box-sizing: border-box;
+  min-width: 120px;
+  white-space: nowrap;
+  z-index: 1;
+}
+.button-labels-item {
+  height: 69.1px;
+  width: 188.4px;
+  position: relative;
+  border: 2px solid var(--color-black);
+  box-sizing: border-box;
+  display: none;
+}
+.sign-up {
+  width: 152.5px;
+  background-color: rgb(255, 255, 255);
+  border: 2px black solid;
+  color:#2a2a2a;
+  position: relative;
+  line-height: 150%;
+  font-weight: 500;
+  display: inline-block;
+  flex-shrink: 0;
+  white-space: nowrap;
+  z-index: 2;
+}
+.action-buttons,
+.button-labels1,
+.frame-parent,
+.frame-wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.button-labels1 {
+  flex: 1;
+  border: 2px solid var(--color-black);
+  box-sizing: border-box;
+  flex-direction: row;
+  padding: 14px 16px;
+  min-width: 122px;
+  z-index: 1;
+  text-align: center;
+  color: #050505;
+}
+.action-buttons,
+.frame-parent,
+.frame-wrapper {
+  max-width: 100%;
+}
+.action-buttons {
+  width: 446.6px;
+  flex-direction: row;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+  gap: 30.8px;
+  font-size: var(--font-size-5xl);
+  color: var(--color-white);
+}
+.frame-parent,
+.frame-wrapper {
+  flex-direction: column;
+}
+.frame-parent {
+  align-self: stretch;
+  gap: 30.4px;
+}
+.frame-wrapper {
+  width: 705.8px;
+  padding: 5rem 0 0;
+  box-sizing: border-box;
+  min-width: 705.8000000000002px;
+}
+.background-shape {
+  height: 100%;
+  flex: 1;
+  position: relative;
+  background-color: #2a2a2a;
+  min-width: 471px;
+  max-width: 100%;
+  z-index: 1;
+}
+.explore,
+.rectangle-parent {
+  display: flex;
+  height: 100%;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.rectangle-parent {
+  flex: 1;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-xl);
+  background-color: var(--color-whitesmoke);
+  padding: 0 0 0 50.7px;
+  box-sizing: border-box;
+  gap: 105.7px;
+  max-width: 100%;
+  flex-shrink: 0;
+  
+  text-align: left;
+  font-size: 1.5rem;
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}
+.revolutionize-patent-filing{
+  font-weight: 600;
+}
+.revolutionize-patent-filing-container,.blockchain-and-ai {
+  font-size: 2.5rem;
+  font-weight: 600;
+  /* line-height: 70px; */
+}
+
+.experience-the-future{
+  width: 70%;
+  font-size: 1rem;
+  color: #3d3d3d;
+  font-weight: 600;
+}
+.explore {
+  width: 100%;
+  background-color: var(--color-white);
+  overflow: hidden;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1325px) {
+  .frame-wrapper {
+    flex: 1;
+  }
+  .rectangle-parent {
+    flex-wrap: wrap;
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1125px) {
+  .frame-wrapper {
+    min-width: 100%;
+  }
+  .rectangle-parent {
+    gap: 53px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .revolutionize-patent-filing-container {
+    font-size: 2rem;
+    line-height: 70px;
+  }
+  .frame-parent {
+    gap: 22px;
+  }
+  .frame-wrapper {
+    padding-top: 83px;
+    box-sizing: border-box;
+  }
+  .background-shape {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .revolutionize-patent-filing-container {
+    font-size: 35px;
+    line-height: 52px;
+  }
+  .experience-the-future,
+  .sign-up {
+    font-size: var(--font-size-lgi);
+    line-height: 29px;
+  }
+  .action-buttons {
+    flex-wrap: wrap;
+    gap: 27px;
+  }
+  .rectangle-parent {
+    gap: 26px;
+  }
+}
+

@@ -6,6 +6,15 @@ const userSchema = new mongoose.Schema({
         required: true,
         unique: true
     },
+    fullname: {
+      type: String,
+      default: "Sam Anderson",
+
+  },
+    location:{
+      type: String,
+      default: "California, USA",
+    },
     password: {
         type: String,
         required: true
@@ -13,6 +22,10 @@ const userSchema = new mongoose.Schema({
     role:{
       type: String,
       required: true
+    },
+    username:{
+      type: String,
+      required: false
     }
 });
 

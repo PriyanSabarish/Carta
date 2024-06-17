@@ -13,29 +13,33 @@ body{
 }
 .user-container {
   border-radius: 15px;
-  background-color: azure;
+  background-color: rgb(255, 255, 255);
   padding: 5vw;
   display: flex;
   justify-content: flex-start;
   font-size: 4vw;
-  margin: 5vw; /* Adjust margin as needed */
-  width: calc(100% - 10vw); /* Adjust width based on margin */
+  margin: 10vmax;
+  width: 80vw;
+   /* Adjust margin as needed */
+  /* Adjust width based on margin */
   height: 100%;
 }
 .contentNavigation{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-
   width: 70%;
-  margin-left: 100px;
-  height: 90%;
+  justify-items: flex-start;
+  position: relative;
+  right: 3vw;
+  height: 75%;
 }
 
 .usernav-items{
   display: flex;
   flex-direction: column;
-
+  margin-right: 3vw;
+  width: 100%;
     list-style: none;
 
    
@@ -47,16 +51,16 @@ body{
 }
 
 .usernav-items li a{
-
   color: rgb(51, 51, 51);
   text-decoration: none;
   
 }
 
-.usernav-items li a:hover {
+.usernav-items li a.active {
   font-size: 20px;
   padding: 10px 20px;
   border-radius: 35px;
+  
   background-color: rgba(10, 30, 53, 0.735);
   color: rgb(220, 220, 220);
    /* Add bottom border on hover */
@@ -71,7 +75,7 @@ body{
 }
 
 .name-details{
-  
+  margin-top: 2vh;
   display: flex;
   justify-content: space-between;
   width: 100%;
@@ -85,35 +89,45 @@ body{
   
 }
 
-
+.editbutton{
+  background-color: #222222;
+  width: 6vw;
+  border-radius: 40px;
+  height: 6vh;
+}
 .persondet{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-
+  margin-top: 5vh;
+  
 }
 
 
 .personfirstrow{
   display: flex;
   justify-content: space-between;
+  padding: 1rem 0 1rem 0;
 }
 
 .personsecondrow{
   display: flex;
   justify-content: space-between;
-  width: 53%;
+  width: 49%;
+  
 }
 
 .itemheading{
-  font-size: 16px;
-  font-weight: 600;
+
+  font-weight: 500;
+  font-size: 18px;
   color: rgb(23,23,23);
 }
 
 .itemvalue{
-  font-size: 20px;
+  
   font-weight: 400;
+  font-size: 20px;
   color: rgb(101, 101, 101);
 }
 
@@ -142,25 +156,32 @@ body{
 
 
 
+@media (min-height: 700px) {
+  .user-container {
+    padding: 4rem 3rem 2rem 3rem; /* Adjust padding as needed */
+    font-size: 1.3rem; /* Adjust font size as needed */
+    /* Adjust margin as needed */
+   
+    /* Adjust width based on margin */
+  }
+  
+  .contentNavigation{
+    height: 65%;
+  }
+}
+
+
 
 
 
 
 @media (min-width: 768px) {
   .user-container {
-    padding: 2rem; /* Adjust padding as needed */
-    font-size: 1.6rem; /* Adjust font size as needed */
-    margin: 5vw; /* Adjust margin as needed */
-    width: calc(100% - 10vw); /* Adjust width based on margin */
-  }
-}
-
-@media (min-width: 1024px) {
-  .user-container {
-    padding: 4rem 3rem 3rem 3rem; /* Adjust padding as needed */
-    font-size: 1.2rem; /* Adjust font size as needed */
-    margin: 14vw; /* Adjust margin as needed */
-    width: calc(100% - 15vw); /* Adjust width based on margin */
+    /* 4rem 3rem 2rem 3rem */
+    padding: 4rem 2rem 2rem 2rem; /* Adjust padding as needed */
+    font-size: 1.3rem; /* Adjust font size as needed */
+    /* Adjust margin as needed */
+    /* Adjust width based on margin */
   }
 }
 

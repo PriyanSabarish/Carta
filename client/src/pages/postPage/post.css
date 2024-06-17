@@ -1,0 +1,50 @@
+.post-box{
+    display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 2vw;
+  overflow-y: auto;
+    width: 100%;
+    height: 90%;
+    background-color: rgb(249, 249, 249);
+    border-radius: 20px;
+}
+#commentbutton{
+    background-color: rgb(44, 44, 44);
+    height: 38px;
+}
+.commenttitle{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.another-box, .comment-box{
+    width: 70%;
+}
+.mainpostdappa{
+    display: flex;
+    justify-content: space-between;
+   
+    border-radius: 15px;
+    margin: 0 5vw 0vw 5vw;
+    /* Adjust margin as needed */
+    /* Adjust width based on margin */
+    height: 85vh;
+}
+.selectedTitle{
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+.selectedAbstract{
+    margin-bottom: 1rem;
+    font-weight: 600;
+    color: rgb(68, 68, 68);
+}
+.selectedDescription{
+    font-style: italic;
+}
+.selectedInventors{
+    margin-top: 1rem;
+    font-style: oblique;
+    font-weight: 600;
+}

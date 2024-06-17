@@ -18,6 +18,26 @@ const patentSchema = new mongoose.Schema({
         type: String,
         required: true,
     },
+    userId:{
+        type: String,
+        required: true,
+    },
+    Cid:{
+        type:String,
+        required:true
+    },
+    transactionHash:{
+        type:String,
+        required:true
+    },
+    abstract:{
+        type:String,
+        required:true
+    },
+    Inventors:{
+        type:String,
+        required:true
+    }
 
 });
 

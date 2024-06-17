@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import {Link} from "react-router-dom"
+import {Link, NavLink} from "react-router-dom"
 import { useNavigate } from 'react-router-dom';
 import './navbar.css';
 import { useCookies } from "react-cookie";
@@ -19,8 +19,8 @@ const Naavbar =()=>{
     return (
          <>
 
-       <div class = "navbarr" id='navbarr'>
-                   <nav class = "nav-comp" id='nav-comp'>
+       <div className= "navbarr" id='navbarr'>
+                   <nav className= "nav-comp" id='nav-comp'>
                     
                        <div id='codeanal'><h1>
                            <span id='code'>Car</span>
@@ -31,22 +31,26 @@ const Naavbar =()=>{
                               <div className='navdiv-items' id='navdiv-items'>
                                <ul className='nav-items' id='nav-items'>
                                    <li>
-                                   <Link to={'/home'}>Home</Link>
+                                   <NavLink to={'/home'} activeClassName="active">Home</NavLink>
                                   </li>
                                   <li>
-                                   <Link to={'/explore'}>Explore</Link>
+                                   <NavLink to={'/explore'} activeClassName="active">Explore</NavLink>
                                   </li>
                                   <li>
-                                   <Link to={'/apply'}>Apply</Link>
+                                   <NavLink to={'/verify'} activeClassName="active">Verify</NavLink>
                                   </li>
                                   <li>
-                                   <Link to={'/userProfile'}>Profile</Link>
+                                   <NavLink to={'/apply'} activeClassName="active">Apply</NavLink>
+                                  </li>
+                                  <li>
+                                   <NavLink to={'/userProfile/myprofile'} activeClassName="active" >Profile</NavLink>
                                   </li>
                                 </ul>
                               </div>
                               <div className='right-icons'>
                                       <h3 className='noticon'><IoMdNotificationsOutline /></h3>
-                                      <h3 className='usericon'><FaRegUser onClick={logOut}/></h3>
+                                      {/*<h3 className='usericon'> <FaRegUser onClick={logOut}/> </h3>*/}
+                                      <button type="button" onClick={logOut}>LogOut</button>
                               </div>
                              </div>
                </nav>

@@ -4,17 +4,18 @@
     left: 0;
     /* position: fixed; */
     width: 100%;
-     /* Add bottom border */
-     box-shadow: none;
-     padding: 0px 80px;
+    /* Add bottom border */
+    box-shadow: none;
+    padding: 0px 80px;
 }
+
 .nav-comp {
     color: black; /* Change text color to black */
     height: 100%;
     width: 100%;
     display: flex;
     justify-content: space-between;
-    align-items: center; 
+    align-items: center;
     box-shadow: none;
     margin-top: 15px;
     padding: 0 0px; /* Adjust padding */
@@ -23,7 +24,7 @@
    */
 }
 
-.navdiv-items{
+.navdiv-items {
     display: flex;
 }
 
@@ -32,33 +33,33 @@
     list-style: none;
     align-items: flex-start;
     justify-content: flex-start;
-     /* Add transparent bottom border */
+    /* Add transparent bottom border */
 }
 
-.right-items{
+.right-items {
     display: flex;
-    
-    justify-content:space-between;
+    justify-content: space-between;
 }
-.right-icons{
+
+.right-icons {
     display: flex;
     justify-content: space-between;
     padding: 0 8px 10px 8px;
     align-items: center;
 }
 
-
-.usericon{
+.usericon {
     color: rgb(51, 51, 51);
 }
-.noticon{
+
+.noticon {
     color: rgb(51, 51, 51);
     padding: 0 25px;
     font-size: 32px;
+    
 }
-.nav-items li {
-    padding: 25px 25px;
-}
+
+
 .navLogout {
     display: flex;
     justify-content: center;
@@ -72,32 +73,47 @@
     text-transform: uppercase;
     cursor: pointer;
     border-radius: 0.3rem;
-  }
-  
+}
+
+.nav-items li {
+    padding: 25px 25px;
+
+}
+
 .nav-items li a {
-   
     font-size: 20px;
     color: rgb(51, 51, 51); /* Change text color to black */
     text-decoration: none;
 }
 
-.nav-items li a:hover {
+.nav-items li a.active {
     font-size: 18px;
     padding: 10px 20px;
     border-radius: 35px;
     background-color: rgba(10, 30, 53, 0.735);
     color: rgb(220, 220, 220);
-     /* Add bottom border on hover */
+    /* Add bottom border on hover */
+}
+
+.nav-items li a:hover {
+    font-size: 18px;
+
+    /* border-radius: 35px; */
+    /* background-color: rgba(10, 30, 53, 0.062);
+    color: rgb(34, 34, 34); */
+    
+} 
+
+
+#code {
+    color: rgb(6, 89, 154);
 }
 
 #code {
     color: rgb(6, 89, 154);
 }
 
-
-#code {
-    color: rgb(6, 89, 154);
-}
-#codeanal{
+#codeanal {
     font-size: 1.5rem;
 }
+

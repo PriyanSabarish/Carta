@@ -1,87 +1,165 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-  }
-  
-
-  .Patentcontainer {
-    background-color: white;
-    width: 600px;
-    padding: 0.5rem 3rem;
-    margin: 100px 0px 0px 420px;
-    padding-bottom: 2rem;
-    border-radius: 0.5rem;
-    border-left: 2px solid rgb(2, 50, 89);
-    border-right: 2px solid rgb(2, 50, 89);
-    border-bottom: 2px solid rgb(2, 50, 89);
-    border-top: rgb(4, 84, 150) 2.5rem solid;
-  }
-  textarea {
-    border-radius: 10x;
-    padding: 8px;
-     /* Adjust width as needed */
-    resize: vertical; /* Allow vertical resizing */
-    font-family: sans-serif; /* Set desired font */
-    word-wrap: break-word; /* Enable word wrapping */
+.Applycontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+ 
+}
+.bigit{
+  font-weight: 500;
+}
+.Patentcontainer {
+  background-color: white;
+  width: 800px;
+  padding: 0.5rem 3rem;
+  height: 100%; /* Adjust height as needed */
+  padding-bottom: 2rem;
+  border-radius: 0.5rem;
+  padding-top: 2rem;
 }
 
-  h2 {
-    margin: 1rem 0;
-  }
-  
-  .patentapplication{
-    display: flex;
-    flex-direction: column;
-    gap: 1.4rem;
-  }
-  
-  .patentapplication div {
-    display: flex;
-    flex-direction: column;
-    gap: 0.3rem;
-  }
-  
-  input {
-    padding: 0.5rem;
-    border-radius: 0.3rem;
-    border: 1px solid gray;
-    font-size: 1.1rem;
-  }
-  
+.everyapp {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; /* Allows elements to wrap to next line */
+}
+
+.left-side {
+  width: 47%;
+}
+
+.right-side {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 45%;
+}
+
+.ayyo {
+  width: 100%;
+  margin-bottom: 10px; /* Add spacing between inputs */
+}
+
+.thebuttons {
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+  align-items:center;
+
+  width: 100%;
+  flex-direction: column; /* Stack buttons vertically */
+  gap: 0.5rem; /* Add spacing between buttons */
+}
+
+.sabba {
+
+  width: 50%;
+  color: white; /* Remove default button background */
+  border: none; /* Remove default button border */
+  cursor: pointer; /* Indicate clickable element */
+   /* Inherit text color from parent */
+  text-transform: uppercase; /* Convert text to uppercase */
+}
+
 .patenSubmit {
-    background-color: rgb(4, 84, 150);
-    color: white;
-    border: none;
-    padding: 0.5rem;
-    font-size: 1rem;
-    text-transform: uppercase;
-    cursor: pointer;
-    border-radius: 0.3rem;
-  }
+  width: 50%;
+  background-color: rgb(4, 84, 150);
+  color: white;
+  border: none;
+  padding: 0.5rem;
+  font-size: 1rem;
+  text-transform: uppercase;
+  cursor: pointer;
+  border-radius: 0.3rem;
+}
+
+/* 
+.everyapp{
+  display: flex;
+  justify-content: space-between;
+}
+.left-side,.right-side{
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  width: 50%;
+}
+.thebuttons{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  padding-top: 10px;
+
+  align-items: center;
+
+  flex-direction: column;
+
+ 
+}
+.sabba{
+  width: 50%;
+}
+.ayyo{
+  width:100%;
+}
+.Patentcontainer {
+  height: 500px;
+  background-color: white;
+  width: 800px;
+  padding: 0.5rem 3rem;
   
-  span a {
-    text-decoration: none;
-    color: rgb(80, 98, 255);
-  }
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  border-radius: 0.5rem;
+ 
   
-  .private {
-    height: 100vh;
-    width: 100vw;
-    background-color: rgb(80, 98, 255);
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-transform: uppercase;
-    font-size: 3rem;
-    flex-direction: column;
-    gap: 1rem;
-  }
-  
-  .private button {
-    background-color: black;
-    padding: 2rem 10rem;
-    font-size: 4rem;
-    border-radius: 2rem;
-  }
+}
+
+
+
+.filein {
+  padding: 0.5rem;
+  border-radius: 0.3rem;
+  border: 1px solid gray;
+  font-size: 1.1rem;
+}
+
+.patenSubmit {
+  background-color: rgb(4, 84, 150);
+  color: white;
+  border: none;
+  width: 50%;
+  padding: 0.5rem;
+  font-size: 1rem;
+  text-transform: uppercase;
+  cursor: pointer;
+  border-radius: 0.3rem;
+}
+
+span a {
+  text-decoration: none;
+  color: rgb(80, 98, 255);
+}
+
+.private {
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(80, 98, 255);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  font-size: 3rem;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.private button {
+  background-color: black;
+  padding: 2rem 10rem;
+  font-size: 4rem;
+  border-radius: 2rem;
+}
+
+ */

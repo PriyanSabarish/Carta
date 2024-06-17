@@ -1,0 +1,24 @@
+body {
+  width: 100%;
+  height: 100vh; /* Adjust as needed */
+  overflow: hidden;
+}
+
+.applicationdappa {
+  display: flex;
+  flex-direction: column; /* Ensure vertical alignment */
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 15px;
+  margin: 1vh 8vw 3vw 8vw; /* Adjust margin as needed */
+  background-color: aliceblue;
+  /* Adjust width based on margin */
+  height: 80vh;
+  padding: 1vw;
+}
+
+.accordion {
+  width: 100%;
+  overflow-y: auto; /* Enable vertical scrolling if needed */
+  max-height: calc(100% - 2rem); /* Adjust as needed */
+}

@@ -44,7 +44,7 @@ module.exports.login = async (req,res,next) => {
             const { email, password } = req.body;
             const user = await User.login(email, password);
             console.log("from database role "+ user.role)
-            const token = jwt.sign({ userId: user._id, role: user.role}, 'MySceretKey', { expiresIn: '365d' });
+            const token = jwt.sign({ userId: user._id, role: user.role ,username:user.username}, 'MySceretKey', { expiresIn: '365d' });
 
         res.cookie("jwt", token, {
             httpOnly: false,

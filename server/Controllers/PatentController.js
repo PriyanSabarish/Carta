@@ -4,14 +4,19 @@ const Patent = require('../Models/PatentModel');
 exports.ApprovedPatent = async(req,res) =>{
     try {
         console.log(req.body);
-        const { applicationID,title, description ,applicationStatus} = req.body;
+        const { applicationID,title, description ,applicationStatus,userId,Cid,transactionHash,abstract,Inventors} = req.body;
         console.log(title, description);
         // Hash password before saving
         const patent = new Patent({
             applicationID,
             title,
             description,
-            applicationStatus
+            applicationStatus,
+            userId,
+            Cid,
+            transactionHash,
+            abstract,
+            Inventors
         });
         await patent.save();
         res.status(201).json({
